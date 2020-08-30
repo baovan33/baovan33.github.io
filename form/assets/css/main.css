@@ -1,0 +1,337 @@
+            /* .Fabulous-btn-red {
+        background-color: red;
+        border-radius: 4px;
+        border: 0px;
+        color: white;
+        width: 100px;
+        height: 36px;
+        font-size: 13px;
+        font-weight: 750;
+    }
+    
+    .Fabulous-btn-nope-red {
+        border-radius: 5px;
+        border: 0px;
+        width: 100px;
+        height: 17px;
+        background-color: #911;
+        margin-top: -10px;
+    }
+    
+    .Fabulous-btn-blue {
+        background-color: #67f;
+        border-radius: 4px;
+        border: 0px;
+        color: white;
+        width: 100px;
+        height: 36px;
+        font-size: 13px;
+        margin-top: 20px;
+        font-weight: 750;
+    }
+    
+    .Fabulous-btn-nope-blue {
+        border-radius: 5px;
+        border: 0px;
+        width: 100px;
+        height: 17px;
+        background-color: #24f;
+        margin-top: -10px;
+    }
+    /* .search {
+display: flex;
+}
+
+.btn-search {
+background-color: blue;
+border: 0px;
+color: white;
+width: 200px;
+height: 36px;
+font-size: 13px;
+font-weight: 750;
+position: relative;
+margin-top: 20px;
+}
+
+.btn-nope-icon {
+background-color: red;
+height: 36px;
+width: 36px;
+margin-top: 3px;
+}
+
+.i {
+position: absolute;
+left: 91px;
+top: 123px;
+} */
+            /* .btn-green {
+
+
+        font-weight: 750;
+        width: 100px;
+        height: 30px;
+        background-color: black;
+        color: rgb(67, 233, 67);
+        border: 2px solid rgb(67, 233, 67);
+        margin-top: 20px;
+    }
+    
+    .btn-green:hover {
+        background-color: rgb(67, 233, 67);
+        color: black;
+        border: 2px solid black;
+    }
+    
+    .btn-recommend {
+        background-color: #57b;
+        color: white;
+        font-weight: 750;
+        width: 100px;
+        height: 36px;
+        border-radius: 18px;
+        font-size: 0.75rem;
+        border: 0px;
+    }
+    
+    .btn-recommend:hover {
+        transform: scale(1.5);
+    }
+    
+    .btn-stroke {
+        background-color: black;
+        color: #6b8e23;
+        border: solid 2px #6b8e23;
+        width: 100px;
+        height: 36px;
+        font-weight: 750;
+        position: relative;
+    }
+    
+    .btn-stroke::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: -1;
+        background-color: black;
+        color: #6b8e23;
+        border: solid 1px #6b8e23;
+        transition: color 2s, background 2s;
+    }
+    
+    .btn-stroke:hover::after {
+        transform: scaleX(1.4)scaleY(1.6);
+        transition: all 2s;
+        opacity: 0;
+        background-color: #6b8e23;
+        color: black;
+    }
+    
+    .btn-change-size {
+        background-color: yellow;
+        color: black;
+        border: solid 2px black;
+        width: 100px;
+        height: 36px;
+        font-weight: 750;
+        transition: width 2s;
+    }
+    
+    .btn-change-size:hover {
+        width: 200px;
+        background-color: black;
+        color: yellow;
+    }
+    
+    .btn-change-color {
+        background-color: green;
+        color: black;
+        border: solid 2px black;
+        width: 100px;
+        height: 36px;
+        font-weight: 750;
+        box-shadow: grey 3px;
+        transition: color 1s, background 1s;
+    }
+    
+    .btn-change-color:hover {
+        color: yellow;
+        background-color: red;
+    }
+    
+    .btn-neon {
+        width: 100px;
+        height: 36px;
+        border-radius: 18px;
+        border: 1.5px solid #00d7c3;
+        background-color: black;
+        color: #00d7c3;
+    }
+    
+    .btn-neon:hover {
+        box-shadow: 0 0 3px 0 #00d7c3 inset, 0 0 10px 2px #00d7c3;
+        border: 3px solid #00d7c3;
+    }
+    
+    .btn-gradient {
+        width: 100px;
+        height: 36px;
+        border-radius: 4px;
+        border: 0px;
+        background-image: linear-gradient(0, #F4F200, #eceb6e);
+        color: black;
+        font-weight: 700;
+    }
+    
+    .navbar {
+        font-size: 1rem;
+        background-color: #235;
+        height: 60px;
+        width: 1000px;
+    }
+    
+    .btn-gradient:hover {
+        transition: ease-in-out;
+    }
+    
+    .navbar-menu-list {
+        list-style: none;
+        cursor: pointer;
+        display: flex;
+        position: relative;
+    }
+    
+    .navbar-menu-list--main {
+        margin: 23px 10px 23px 10px;
+        display: block;
+        text-align: cemter;
+        margin: 20px auto;
+    }
+    
+    .navbar-menu-list-menu {
+        height: 100%;
+        width: 109px;
+        background-color: ;
+    }
+    
+    .navbar-menu-list-item {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .navbar-menu-list--separate ::after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 1px;
+        height: 60px;
+        background-color: white;
+        top: 1px;
+        margin-left: -27px;
+    }
+    
+    .navbar-subMenu-list-drop {
+        list-style: none;
+    }
+    
+    .navbar-subMenu-list-drop {}
+    
+    */
+            
+            .form {
+                background-image: linear-gradient(to bottom left, #d9e9e7, rgb(93 100 138), #114b71);
+                width: 40%;
+                height: auto;
+                margin: auto;
+                border-radius: 7px;
+            }
+            
+            .hr {
+                width: 50px;
+            }
+            
+            .form__login {
+                padding: 46px;
+                text-align: center;
+            }
+            
+            .form__login-sign {
+                font-size: 1.3rem;
+                color: white;
+                font-weight: 600;
+                text-align: center;
+            }
+            
+            .form__login-email {
+                margin: 15px auto;
+            }
+            
+            .form__login-pass {
+                margin-bottom: 6px;
+            }
+            
+            .form__login-email__input {
+                height: 30px;
+                border-radius: 4px;
+                border: 0px;
+            }
+            
+            .form__login-email__input:focus {
+                border-color: thistle;
+                outline: none;
+                box-shadow: 10px thistle;
+            }
+            
+            .form__login-forget {
+                color: #eee;
+                font-size: 0.8rem;
+                margin-right: 54px;
+            }
+            
+            .form__login-btn-sign {
+                width: 174px;
+                height: 30px;
+                border: 0px;
+                border-radius: 3px;
+                color: black;
+                font-size: 0.85rem;
+                font-weight: 530;
+                background-color: #eee;
+                margin: 15px auto;
+            }
+            
+            .form__login-btn-sub {
+                margin: 15px auto;
+            }
+            
+            .form__login-btn-sub__create {
+                height: 30px;
+                width: 85px;
+                font-size: 0.55rem;
+                font-weight: 555;
+                border-radius: 3px;
+                color: #1f1f1f;
+                background-color: #abe;
+                border: 1.2px solid #8ea3d6;
+            }
+            
+            .form__login-btn-sub__learn {
+                height: 30px;
+                width: 85px;
+                font-size: 0.6rem;
+                font-weight: 550;
+                border-radius: 3px;
+                color: #2E2E2E;
+                background-color: #abe;
+                border: 1.2px solid #8ea3d6;
+            }
+            
+            .form__login-text {
+                color: white;
+                margin: 50px auto;
+            }
